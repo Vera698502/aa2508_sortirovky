@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="aa2508_sortirovky.vcxproj" />
+  <Project Path="aa2508_sortirovky.vcxproj" Id="09052e3c-f857-4e70-be85-b067d658c4ca" />
 </Solution>

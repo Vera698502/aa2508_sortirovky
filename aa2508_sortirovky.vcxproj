@@ -139,7 +139,17 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="aa2508_sortirovky.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stubs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sorts.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="average.txt" />
+    <Text Include="best.txt" />
+    <Text Include="duplicates.txt" />
+    <Text Include="worst.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

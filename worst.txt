@@ -1,0 +1,10 @@
+lemon
+kiwi
+honeydew
+grape
+fig
+elderberry
+date
+cherry
+banana
+apple

@@ -1,0 +1,10 @@
+apple
+apple
+banana
+cherry
+banana
+apple
+date
+date
+fig
+cherry
