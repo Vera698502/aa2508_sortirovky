@@ -8,9 +8,9 @@
 
 using namespace std;
 
-#define RUN(x) { Run(#x, x, data); }
+#define RUN(x) { Run(#x, x, data, out); }
 
-void Run(string method_name, bool(*p)(const vector<string>&, vector<string>&), const vector<string>& data)
+void Run(string method_name, bool(*p)(const vector<string>&, vector<string>&), const vector<string>& data, ofstream& out)
 {
     vector<string> result;
 
@@ -26,6 +26,9 @@ void Run(string method_name, bool(*p)(const vector<string>&, vector<string>&), c
 
     bool isSorted = std::is_sorted(result.begin(), result.end());
 
+    out << method_name << "," << data.size() << "," << timePrep << "," << timeSort << ","
+        << (ok && isSorted ? "OK" : "FAILED") << "\n";
+
     cout << method_name << ";" << data.size() << ";" << timePrep << ";" << timeSort << ";"
         << (ok && isSorted ? "OK" : "FAILED") << endl;
 }
@@ -40,6 +43,14 @@ vector<string> LoadData(const string& filename) {
 
 int main() {
     setlocale(LC_ALL, "Russian");
+
+    ofstream out("results.csv");
+    if (!out.is_open()) {
+        cout << "Ошибка: не удалось создать results.csv" << endl;
+        return 1;
+    }
+
+    out << "Method,DatasetSize,PrepTime_mcs,SortTime_mcs,Status\n";
     cout << "Method;Size;PrepTime_mcs;SortTime_mcs;Status" << endl;
 
     vector<string> bestData = LoadData("best.txt");
@@ -62,6 +73,9 @@ int main() {
     cout << "Duplicates_";
     data = dupData;
     RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
+
+    out.close(); 
+    cout << "\nРезультаты сохранены в файл results.csv!" << endl;
 
     return 0;
 }
