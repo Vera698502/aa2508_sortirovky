@@ -151,6 +151,7 @@
     <ClInclude Include="sorts.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\..\..\Downloads\currency.txt" />
     <Text Include="average.txt" />
     <Text Include="best.txt" />
     <Text Include="Best_shellSort.txt" />

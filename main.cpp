@@ -72,6 +72,7 @@ int main() {
     vector<string> heapData = LoadData("Heap_best.txt");
     vector<string> mergeData = LoadData("merge_test.txt");
     vector<string> quickData = LoadData("quick_test.txt");
+    vector<string> currencyData = LoadData("currency.txt"); 
 
     vector<string> data;
 
@@ -125,6 +126,16 @@ int main() {
         Run("quickSort (Katya's Data)", quickSort, data, out);
         Run("mergeSort (Katya's Data)", mergeSort, data, out);
         Run("radixSort (Katya's Data)", radixSort, data, out);
+    }
+
+    if (!currencyData.empty()) {
+        cout << "\nDATA: currency.txt\n";
+        data = currencyData;
+        Run("shellSort (David's Data)", shellSort, data, out);
+        Run("heapSort (David's Data)", heapSort, data, out);
+        Run("quickSort (David's Data)", quickSort, data, out);
+        Run("mergeSort (David's Data)", mergeSort, data, out);
+        Run("radixSort (David's Data)", radixSort, data, out);
     }
 
     out.close();
