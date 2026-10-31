@@ -74,7 +74,7 @@ int main() {
     data = dupData;
     RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
 
-    out.close(); 
+    out.close();
     cout << "\nРезультаты сохранены в файл results.csv!" << endl;
 
     return 0;
