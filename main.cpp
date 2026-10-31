@@ -60,21 +60,21 @@ int main() {
 
     cout << "Best_";
     vector<string> data = bestData;
-    RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
+    RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort);
 
     cout << "Worst_";
     data = worstData;
-    RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
+    RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort);
 
     cout << "Average_";
     data = avgData;
-    RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
+    RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort);
 
     cout << "Duplicates_";
     data = dupData;
-    RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
+    RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort);
 
-    out.close();
+    out.close(); 
     cout << "\nРезультаты сохранены в файл results.csv!" << endl;
 
     return 0;
