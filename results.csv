@@ -1,46 +1,46 @@
 Method,DatasetSize,PrepTime_mcs,SortTime_mcs,Status
-shellSort,2000,878,20699,OK
-heapSort,2000,937,9271,OK
-quickSort,2000,971,2175,OK
-mergeSort,2000,723,375,OK
-radixSort,2000,754,5045,OK
-shellSort,2000,936,14746,OK
-heapSort,2000,581,5589,OK
-quickSort,2000,762,3743,OK
-mergeSort,2000,670,56593,OK
-radixSort,2000,704,4136,OK
-shellSort,2002,638,23215,OK
-heapSort,2002,755,10367,OK
-quickSort,2002,545,6591,OK
-mergeSort,2002,690,64810,OK
-radixSort,2002,651,3704,OK
-shellSort,2000,579,14791,OK
-heapSort,2000,624,13663,OK
-quickSort,2000,914,5084,OK
-mergeSort,2000,601,112221,OK
-radixSort,2000,2376,7735,OK
-shellSort (Anya),16,87,188,OK
-heapSort (Anya),16,10,28,OK
-quickSort (Anya),16,7,23,OK
-mergeSort (Anya),16,11,152,OK
-radixSort (Anya),16,12,68,OK
-shellSort (Altynai),39,25,218,OK
-heapSort (Altynai),39,17,49,OK
-quickSort (Altynai),39,16,52,OK
-mergeSort (Altynai),39,17,616,OK
-radixSort (Altynai),39,17,115,OK
-shellSort (Polina),2000,783,20058,OK
-heapSort (Polina),2000,1050,10034,OK
-quickSort (Polina),2000,766,3089,OK
-mergeSort (Polina),2000,1000,419,OK
-radixSort (Polina),2000,694,7771,OK
-shellSort (Katya),1120,502,10826,OK
-heapSort (Katya),1120,505,3079,OK
-quickSort (Katya),1120,429,2459,OK
-mergeSort (Katya),1120,421,29372,OK
-radixSort (Katya),1120,296,1842,OK
-shellSort (David),2000,541,13706,OK
-heapSort (David),2000,610,5564,OK
-quickSort (David),2000,1118,6052,OK
-mergeSort (David),2000,986,48162,OK
-radixSort (David),2000,521,1960,OK
+shellSort,2000,526,11579,OK
+heapSort,2000,470,7127,OK
+quickSort,2000,457,1495,OK
+mergeSort,2000,524,473,OK
+radixSort,2000,467,3140,OK
+shellSort,2000,487,12474,OK
+heapSort,2000,464,5519,OK
+quickSort,2000,496,1650,OK
+mergeSort,2000,487,39306,OK
+radixSort,2000,582,3164,OK
+shellSort,2002,665,12525,OK
+heapSort,2002,486,5193,OK
+quickSort,2002,444,3139,OK
+mergeSort,2002,848,37920,OK
+radixSort,2002,487,2545,OK
+shellSort,2000,662,11005,OK
+heapSort,2000,472,6710,OK
+quickSort,2000,440,5201,OK
+mergeSort,2000,470,37387,OK
+radixSort,2000,536,2608,OK
+shellSort (Anya),16,6,31,OK
+heapSort (Anya),16,5,18,OK
+quickSort (Anya),16,5,19,OK
+mergeSort (Anya),16,7,93,OK
+radixSort (Anya),16,6,39,OK
+shellSort (Altynai),39,12,117,OK
+heapSort (Altynai),39,12,38,OK
+quickSort (Altynai),39,13,47,OK
+mergeSort (Altynai),39,14,428,OK
+radixSort (Altynai),39,13,73,OK
+shellSort (Polina),2000,515,11033,OK
+heapSort (Polina),2000,489,5975,OK
+quickSort (Polina),2000,487,1580,OK
+mergeSort (Polina),2000,837,262,OK
+radixSort (Polina),2000,834,4758,OK
+shellSort (Katya),1120,282,7196,OK
+heapSort (Katya),1120,305,1982,OK
+quickSort (Katya),1120,292,1707,OK
+mergeSort (Katya),1120,374,19383,OK
+radixSort (Katya),1120,391,2091,OK
+shellSort (David),2000,680,11132,OK
+heapSort (David),2000,529,5087,OK
+quickSort (David),2000,563,3134,OK
+mergeSort (David),2000,544,35810,OK
+radixSort (David),2000,484,1424,OK
