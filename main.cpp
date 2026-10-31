@@ -76,23 +76,23 @@ int main() {
     vector<string> data;
 
     cout << "Best_"; data = bestData;
-    RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
+    RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort);
 
     cout << "Worst_"; data = worstData;
-    RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
+    RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort);
 
     cout << "Average_"; data = avgData;
-    RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
+    RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort);
 
     cout << "Duplicates_"; data = dupData;
-    RUN(shellSort); RUN(heapSort); RUN(quickSortbyBorschevs); RUN(mergeSort); RUN(radixSort);
+    RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort);
 
     if (!shellData.empty()) {
         cout << "\n DATA: Best_shellSort.txt \n";
         data = shellData;
         Run("shellSort (Anya's Data)", shellSort, data, out);
         Run("heapSort (Anya's Data)", heapSort, data, out);
-        Run("quickSort (Anya's Data)", quickSortbyBorschevs, data, out);
+        Run("quickSort (Anya's Data)", quickSort, data, out);
         Run("mergeSort (Anya's Data)", mergeSort, data, out);
         Run("radixSort (Anya's Data)", radixSort, data, out);
     }
@@ -102,7 +102,7 @@ int main() {
         data = heapData;
         Run("shellSort (Altynai's Data)", shellSort, data, out);
         Run("heapSort (Altynai's Data)", heapSort, data, out);
-        Run("quickSort (Altynai's Data)", quickSortbyBorschevs, data, out);
+        Run("quickSort (Altynai's Data)", quickSort, data, out);
         Run("mergeSort (Altynai's Data)", mergeSort, data, out);
         Run("radixSort (Altynai's Data)", radixSort, data, out);
     }
@@ -112,7 +112,7 @@ int main() {
         data = mergeData;
         Run("shellSort (Polina's Data)", shellSort, data, out);
         Run("heapSort (Polina's Data)", heapSort, data, out);
-        Run("quickSort (Polina's Data)", quickSortbyBorschevs, data, out);
+        Run("quickSort (Polina's Data)", quickSort, data, out);
         Run("mergeSort (Polina's Data)", mergeSort, data, out);
         Run("radixSort (Polina's Data)", radixSort, data, out);
     }
@@ -122,7 +122,7 @@ int main() {
         data = quickData;
         Run("shellSort (Katya's Data)", shellSort, data, out);
         Run("heapSort (Katya's Data)", heapSort, data, out);
-        Run("quickSort (Katya's Data)", quickSortbyBorschevs, data, out);
+        Run("quickSort (Katya's Data)", quickSort, data, out);
         Run("mergeSort (Katya's Data)", mergeSort, data, out);
         Run("radixSort (Katya's Data)", radixSort, data, out);
     }
