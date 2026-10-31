@@ -6,7 +6,7 @@
 using namespace std;
 
 template <typename T>
-void quickSortRec_Borschevskaya(vector<T>& arr, int low, int high)
+void quickSortRec(vector<T>& arr, int low, int high)
 {
     if (low >= high) return;
     int i = low;
@@ -21,17 +21,17 @@ void quickSortRec_Borschevskaya(vector<T>& arr, int low, int high)
             j--;
         }
     }
-    quickSortRec_Borschevskaya(arr, low, j);
-    quickSortRec_Borschevskaya(arr, i, high);
+    quickSortRec(arr, low, j);
+    quickSortRec(arr, i, high);
 }
 
-bool quickSortbyBorschevskaya(const vector<string>& data, vector<string>& result)
+bool quickSort(const vector<string>& data, vector<string>& result)
 {
     if (data.empty()) {
         result.clear();
         return true;
     }
     result = data;
-    quickSortRec_Borschevskaya(result, 0, static_cast<int>(result.size()) - 1);
+    quickSortRec(result, 0, static_cast<int>(result.size()) - 1);
     return true;
 }
