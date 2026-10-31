@@ -7,7 +7,7 @@ bool shellSort(const std::vector<std::string>& data, std::vector<std::string>& r
         return false;
 
     result = data;
-    int n = (int)result.size(); 
+    int n = (int)result.size();
 
     for (int gap = n / 2; gap > 0; gap /= 2) {
         for (int i = gap; i < n; i++) {
