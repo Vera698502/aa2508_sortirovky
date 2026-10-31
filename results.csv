@@ -1,21 +1,41 @@
 Method,DatasetSize,PrepTime_mcs,SortTime_mcs,Status
-shellSort,2000,542,11181,OK
-heapSort,2000,500,7221,OK
-quickSortbyBorschevs,2000,505,1629,OK
-mergeSort,2000,594,63897,OK
-radixSort,2000,521,126,OK
-shellSort,2000,505,13588,OK
-heapSort,2000,503,6727,OK
-quickSortbyBorschevs,2000,1456,2473,OK
-mergeSort,2000,483,96928,OK
-radixSort,2000,818,154,FAILED
-shellSort,2039,837,18282,OK
-heapSort,2039,629,8242,OK
-quickSortbyBorschevs,2039,723,8790,OK
-mergeSort,2039,896,77678,OK
-radixSort,2039,816,161,FAILED
-shellSort,2000,839,16049,OK
-heapSort,2000,641,7118,OK
-quickSortbyBorschevs,2000,663,4362,OK
-mergeSort,2000,802,51580,OK
-radixSort,2000,563,140,FAILED
+shellSort,2000,906,12655,OK
+heapSort,2000,547,20224,OK
+quickSortbyBorschevs,2000,569,1744,OK
+mergeSort,2000,944,91116,OK
+radixSort,2000,1177,4324,OK
+shellSort,2000,776,34773,OK
+heapSort,2000,799,15279,OK
+quickSortbyBorschevs,2000,2293,5232,OK
+mergeSort,2000,556,91571,OK
+radixSort,2000,763,7912,OK
+shellSort,2002,1097,19536,OK
+heapSort,2002,577,8663,OK
+quickSortbyBorschevs,2002,837,4734,OK
+mergeSort,2002,1002,63516,OK
+radixSort,2002,938,8848,OK
+shellSort,2000,628,24817,OK
+heapSort,2000,903,13600,OK
+quickSortbyBorschevs,2000,970,6977,OK
+mergeSort,2000,892,91825,OK
+radixSort,2000,876,8680,OK
+shellSort (Anya's Data),100,32,469,OK
+heapSort (Anya's Data),100,38,242,OK
+quickSort (Anya's Data),100,31,129,OK
+mergeSort (Anya's Data),100,44,2023,OK
+radixSort (Anya's Data),100,43,222,OK
+shellSort (Altynai's Data),2000,558,19276,OK
+heapSort (Altynai's Data),2000,735,6581,OK
+quickSort (Altynai's Data),2000,867,3256,OK
+mergeSort (Altynai's Data),2000,892,72985,OK
+radixSort (Altynai's Data),2000,872,5109,OK
+shellSort (Polina's Data),1000,612,7121,OK
+heapSort (Polina's Data),1000,373,3305,OK
+quickSort (Polina's Data),1000,482,2557,OK
+mergeSort (Polina's Data),1000,344,27465,OK
+radixSort (Polina's Data),1000,439,6423,OK
+shellSort (Katya's Data),1120,445,9572,OK
+heapSort (Katya's Data),1120,330,2865,OK
+quickSort (Katya's Data),1120,403,2591,OK
+mergeSort (Katya's Data),1120,531,28340,OK
+radixSort (Katya's Data),1120,636,2429,OK
