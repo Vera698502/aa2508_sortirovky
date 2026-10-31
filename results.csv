@@ -1,26 +1,21 @@
 Method,DatasetSize,PrepTime_mcs,SortTime_mcs,Status
-shellSort,2000,1586,23217,OK
-heapSort,2000,782,10676,OK
-quickSortbyBorschevs,2000,746,2414,OK
-mergeSort,2000,993,79230,OK
-radixSort,2000,921,222,OK
-shellSort,2000,1311,26250,OK
-heapSort,2000,1223,12647,OK
-quickSortbyBorschevs,2000,1154,3723,OK
-mergeSort,2000,761,96877,OK
-radixSort,2000,2254,442,FAILED
-shellSort,2039,1593,31215,OK
-heapSort,2039,1043,11708,OK
-quickSortbyBorschevs,2039,930,7939,OK
-mergeSort,2039,827,73388,OK
-radixSort,2039,1787,249,FAILED
-shellSort,2000,973,22864,OK
-heapSort,2000,1330,11300,OK
-quickSortbyBorschevs,2000,7354,44447,OK
-mergeSort,2000,1394,137031,OK
-radixSort,2000,1386,276,FAILED
-shellSort (на данных Алтынай),2000,1857,35816,OK
-heapSort (Сортировка Алтынай),2000,2077,17895,OK
-quickSort (на данных Алтынай),2000,1516,4007,OK
-mergeSort (на данных Алтынай),2000,1851,116586,OK
-radixSort (на данных Алтынай),2000,1120,202,FAILED
+shellSort,2000,542,11181,OK
+heapSort,2000,500,7221,OK
+quickSortbyBorschevs,2000,505,1629,OK
+mergeSort,2000,594,63897,OK
+radixSort,2000,521,126,OK
+shellSort,2000,505,13588,OK
+heapSort,2000,503,6727,OK
+quickSortbyBorschevs,2000,1456,2473,OK
+mergeSort,2000,483,96928,OK
+radixSort,2000,818,154,FAILED
+shellSort,2039,837,18282,OK
+heapSort,2039,629,8242,OK
+quickSortbyBorschevs,2039,723,8790,OK
+mergeSort,2039,896,77678,OK
+radixSort,2039,816,161,FAILED
+shellSort,2000,839,16049,OK
+heapSort,2000,641,7118,OK
+quickSortbyBorschevs,2000,663,4362,OK
+mergeSort,2000,802,51580,OK
+radixSort,2000,563,140,FAILED
