@@ -142,8 +142,7 @@
     <ClCompile Include="heapSort.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="merge_sort.cpp" />
-    <ClCompile Include="quickSort_by_borschevs.cpp" />
-    <ClCompile Include="radixSort.cpp" />
+    <ClCompile Include="quickSort.cpp" />
     <ClCompile Include="shellSort.cpp" />
     <ClCompile Include="stubs.cpp" />
   </ItemGroup>
@@ -151,14 +150,19 @@
     <ClInclude Include="sorts.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\Downloads\Best_shellSort.txt" />
     <Text Include="average.txt" />
     <Text Include="best.txt" />
     <Text Include="duplicates.txt" />
     <Text Include="Heap_best.txt" />
     <Text Include="merge_test.txt" />
-    <Text Include="quick_test.txt" />
     <Text Include="worst.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="aa2508_sortirovky.slnx" />
+    <None Include="main" />
+    <None Include="results.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

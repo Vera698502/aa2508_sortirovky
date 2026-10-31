@@ -21,6 +21,18 @@
     <ClCompile Include="stubs.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="heapSort.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="quickSort.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="shellSort.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="merge_sort.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sorts.h">
@@ -40,5 +52,14 @@
     <Text Include="duplicates.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
+    <Text Include="Heap_best.txt" />
+    <Text Include="merge_test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="results.csv" />
+    <None Include="main" />
+    <None Include="aa2508_sortirovky.slnx" />
+    <None Include=".gitignore" />
+    <None Include=".gitattributes" />
   </ItemGroup>
 </Project>
