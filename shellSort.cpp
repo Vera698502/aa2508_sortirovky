@@ -1,6 +1,7 @@
 #include "sorts.h"
 #include <string>
 #include <vector>
+#include <utility>
 
 bool shellSort(const std::vector<std::string>& data, std::vector<std::string>& result) {
     if (data.empty())
@@ -11,12 +12,9 @@ bool shellSort(const std::vector<std::string>& data, std::vector<std::string>& r
 
     for (int gap = n / 2; gap > 0; gap /= 2) {
         for (int i = gap; i < n; i++) {
-            std::string temp = result[i];
-            int j;
-            for (j = i; j >= gap && result[j - gap] > temp; j -= gap) {
-                result[j] = result[j - gap];
+            for (int j = i; j >= gap && result[j - gap] > result[j]; j -= gap) {
+                std::swap(result[j], result[j - gap]);
             }
-            result[j] = temp;
         }
     }
     return true;
