@@ -78,6 +78,8 @@ int main() {
     vector<string> avgMergeData = LoadData("average_merge.txt");
     vector<string> avgRadixData = LoadData("average_radix.txt");
 
+    vector<string> inplaceHeapData = LoadData("inplace_heap.txt");
+
     vector<string> worstShellData = LoadData("worst_shell.txt");
     vector<string> worstHeapData = LoadData("worst_heap.txt");
     vector<string> worstQuickData = LoadData("worst_quick.txt");
@@ -114,6 +116,8 @@ int main() {
     if (!avgMergeData.empty()) { cout << "\nDATA: average_merge.txt\n"; data = avgMergeData; RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort); }
     if (!avgRadixData.empty()) { cout << "\nDATA: average_radix.txt\n"; data = avgRadixData; RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort); }
 
+    if (!inplaceHeapData.empty()) { cout << "\nDATA: inplace_heap.txt\n"; data = inplaceHeapData; RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort); }
+
     cout << "\n WORST CASES " << endl;
 
     if (!worstShellData.empty()) { cout << "\nDATA: worst_shell.txt\n"; data = worstShellData; RUN(shellSort); RUN(heapSort); RUN(quickSort); RUN(mergeSort); RUN(radixSort); }
@@ -143,13 +147,13 @@ int main() {
         vector<string> qResult = stabilityData;
         quickSort(stabilityData, qResult);
         cout << "QuickSort result: ";
-        for (int i = 0; i < 8; ++i) cout << qResult[i] << " "; 
+        for (int i = 0; i < 8; ++i) cout << qResult[i] << " ";
         cout << "...\n";
 
         vector<string> mResult = stabilityData;
         mergeSort(stabilityData, mResult);
         cout << "MergeSort result: ";
-        for (int i = 0; i < 8; ++i) cout << mResult[i] << " "; 
+        for (int i = 0; i < 8; ++i) cout << mResult[i] << " ";
         cout << "...\n";
 
         Run("shellSort (Stability)", shellSort, stabilityData, out);
