@@ -66,6 +66,12 @@
     <Text Include="random_words_10000.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
+    <Text Include="quick_medium.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="quick_best.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="results.csv" />

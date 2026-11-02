@@ -159,6 +159,8 @@
     <Text Include="duplicates.txt" />
     <Text Include="Heap_best.txt" />
     <Text Include="merge_test.txt" />
+    <Text Include="quick_best.txt" />
+    <Text Include="quick_medium.txt" />
     <Text Include="quick_test.txt" />
     <Text Include="random_words_10000.txt" />
     <Text Include="worst.txt" />
