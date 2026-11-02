@@ -1,176 +1,135 @@
 Method,DatasetSize,PrepTime_mcs,SortTime_mcs,Status
-shellSort,2000,1514,1687,OK
-heapSort,2000,734,8476,OK
-quickSort,2000,729,2416,OK
-mergeSort,2000,696,321,OK
-radixSort,2000,674,4653,OK
-shellSort,2000,677,4747,OK
-heapSort,2000,1512,9683,OK
-quickSort,2000,713,3006,OK
-mergeSort,2000,697,63092,OK
-radixSort,2000,795,4910,OK
-shellSort,2002,707,6759,OK
-heapSort,2002,755,7612,OK
-quickSort,2002,640,4431,OK
-mergeSort,2002,963,61035,OK
-radixSort,2002,869,4867,OK
-shellSort,2000,1060,7455,OK
-heapSort,2000,1421,9826,OK
-quickSort,2000,779,4105,OK
-mergeSort,2000,666,50485,OK
-radixSort,2000,700,4503,OK
-shellSort,16,10,11,OK
-heapSort,16,14,32,OK
-quickSort,16,12,36,OK
-mergeSort,16,19,140,OK
-radixSort,16,11,60,OK
-shellSort,39,25,59,OK
-heapSort,39,29,78,OK
-quickSort,39,29,103,OK
-mergeSort,39,25,904,OK
-radixSort,39,44,180,OK
-shellSort,1120,470,3598,OK
-heapSort,1120,412,3305,OK
-quickSort,1120,405,2422,OK
-mergeSort,1120,467,26476,OK
-radixSort,1120,338,1703,OK
-shellSort,2000,812,1491,OK
-heapSort,2000,706,14061,OK
-quickSort,2000,683,1789,OK
-mergeSort,2000,695,269,OK
-radixSort,2000,579,7502,OK
-shellSort,2000,554,3166,OK
-heapSort,2000,608,10518,OK
-quickSort,2000,549,3706,OK
-mergeSort,2000,1226,76405,OK
-radixSort,2000,740,1835,OK
-shellSort,64,94,243,OK
-heapSort,64,50,199,OK
-quickSort,64,29,110,OK
-mergeSort,64,24,1031,OK
-radixSort,64,22,141,OK
-shellSort,2000,536,8182,OK
-heapSort,2000,739,6977,OK
-quickSort,2000,796,6129,OK
-mergeSort,2000,650,55140,OK
-radixSort,2000,846,3769,OK
-shellSort,1103,814,3205,OK
-heapSort,1103,674,3608,OK
-quickSort,1103,821,3212,OK
-mergeSort,1103,495,34284,OK
-radixSort,1103,727,8192,OK
-shellSort,50,23,49,OK
-heapSort,50,30,74,OK
-quickSort,50,26,102,OK
-mergeSort,50,29,718,OK
-radixSort,50,34,521,OK
-shellSort,8192,3061,2016206,OK
-heapSort,8192,2012,29713,OK
-quickSort,8192,2288,15611,OK
-mergeSort,8192,2093,229387,OK
-radixSort,8192,2472,25380,OK
-shellSort,100000,27625,85852,OK
-heapSort,100000,31531,494302,OK
-quickSort,100000,27157,118142,OK
-mergeSort,100000,28002,12315,OK
-radixSort,100000,28461,91907,OK
-shellSort,1120,539,655,OK
-heapSort,1120,531,582,OK
-quickSort,1120,629,2167,OK
-mergeSort,1120,541,148,OK
-radixSort,1120,532,9393,OK
-shellSort,2000,944,4316,OK
-heapSort,2000,965,4901,OK
-quickSort,2000,1221,4925,OK
-mergeSort,2000,954,54643,OK
-radixSort,2000,905,24030,OK
+shellSort,2000,994,1843,OK
+heapSort,2000,1076,12768,OK
+quickSort,2000,1144,4385,OK
+mergeSort,2000,759,348,OK
+radixSort,2000,805,4598,OK
+shellSort,2000,1074,6118,OK
+heapSort,2000,896,12645,OK
+quickSort,2000,942,3594,OK
+mergeSort,2000,1202,63310,OK
+radixSort,2000,1190,5690,OK
+shellSort,2002,1232,7977,OK
+heapSort,2002,632,7952,OK
+quickSort,2002,631,4532,OK
+mergeSort,2002,991,58393,OK
+radixSort,2002,737,3191,OK
+shellSort,2000,662,8547,OK
+heapSort,2000,665,6115,OK
+quickSort,2000,642,4209,OK
+mergeSort,2000,665,65496,OK
+radixSort,2000,816,3576,OK
+shellSort,16,13,14,OK
+heapSort,16,8,22,OK
+quickSort,16,11,35,OK
+mergeSort,16,12,138,OK
+radixSort,16,12,59,OK
+shellSort,39,24,47,OK
+heapSort,39,24,69,OK
+quickSort,39,25,84,OK
+mergeSort,39,32,964,OK
+radixSort,39,17,92,OK
+shellSort,1120,614,5147,OK
+heapSort,1120,693,4280,OK
+quickSort,1120,560,3657,OK
+mergeSort,1120,599,28680,OK
+radixSort,1120,624,2777,OK
+shellSort,2000,614,1073,OK
+heapSort,2000,646,11084,OK
+quickSort,2000,994,2782,OK
+mergeSort,2000,726,319,OK
+radixSort,2000,1147,7927,OK
+shellSort,2000,755,4561,OK
+heapSort,2000,743,6859,OK
+quickSort,2000,913,5735,OK
+mergeSort,2000,668,53810,OK
+radixSort,2000,1367,2951,OK
+shellSort,64,42,299,OK
+heapSort,64,39,205,OK
+quickSort,64,35,141,OK
+mergeSort,64,38,1599,OK
+radixSort,64,27,362,OK
+shellSort,2000,1017,8901,OK
+heapSort,2000,1237,8456,OK
+quickSort,2000,574,4145,OK
+mergeSort,2000,819,48172,OK
+radixSort,2000,738,3443,OK
+shellSort,1103,443,2744,OK
+heapSort,1103,850,3946,OK
+quickSort,1103,435,1804,OK
+mergeSort,1103,445,26131,OK
+radixSort,1103,504,5599,OK
+shellSort,50,25,52,OK
+heapSort,50,30,72,OK
+quickSort,50,38,116,OK
+mergeSort,50,34,889,OK
+radixSort,50,27,452,OK
+shellSort,8192,2565,2172616,OK
+heapSort,8192,2024,29440,OK
+quickSort,8192,2116,16160,OK
+mergeSort,8192,2143,253510,OK
+radixSort,8192,2316,12085,OK
+shellSort,100000,34892,91726,OK
+heapSort,100000,30599,496897,OK
+quickSort,100000,31140,114924,OK
+mergeSort,100000,27703,10710,OK
+radixSort,100000,29933,95669,OK
+shellSort,1120,654,961,OK
+heapSort,1120,586,460,OK
+quickSort,1120,630,2371,OK
+mergeSort,1120,610,145,OK
+radixSort,1120,646,11705,OK
+shellSort,2000,1032,4272,OK
+heapSort,2000,1133,4684,OK
+quickSort,2000,954,4633,OK
+mergeSort,2000,959,52057,OK
+radixSort,2000,1340,23319,OK
 shellSort (Empty),0,0,0,FAILED
 heapSort (Empty),0,0,0,OK
 quickSort (Empty),0,0,0,OK
 mergeSort (Empty),0,0,0,FAILED
 radixSort (Empty),0,0,0,FAILED
-shellSort (Stability),40,16,30,OK
-heapSort (Stability),40,12,59,OK
-quickSort (Stability),40,12,51,OK
-mergeSort (Stability),40,14,428,OK
-radixSort (Stability),40,13,71,OK
-shellSort (AllSame),50,16,15,OK
-heapSort (AllSame),50,14,22,OK
-quickSort (AllSame),50,15,57,OK
-mergeSort (AllSame),50,15,7,OK
-radixSort (AllSame),50,14,65,OK
-shellSort (Size_100),100,35,156,OK
-heapSort (Size_100),100,28,178,OK
-quickSort (Size_100),100,28,136,OK
-mergeSort (Size_100),100,27,1202,OK
-radixSort (Size_100),100,27,162,OK
-shellSort (Size_500),500,155,963,OK
-heapSort (Size_500),500,130,1159,OK
-quickSort (Size_500),500,131,762,OK
-mergeSort (Size_500),500,131,9375,OK
-radixSort (Size_500),500,128,762,OK
-shellSort (Size_1000),1000,290,2576,OK
-heapSort (Size_1000),1000,297,2598,OK
-quickSort (Size_1000),1000,253,1652,OK
-mergeSort (Size_1000),1000,262,18991,OK
-radixSort (Size_1000),1000,295,1867,OK
-shellSort (Size_2500),2500,694,7503,OK
-heapSort (Size_2500),2500,642,7453,OK
-quickSort (Size_2500),2500,635,4565,OK
-mergeSort (Size_2500),2500,615,54125,OK
-radixSort (Size_2500),2500,701,3670,OK
-shellSort (Size_5000),5000,1442,20308,OK
-heapSort (Size_5000),5000,1302,16843,OK
-quickSort (Size_5000),5000,1271,10499,OK
-mergeSort (Size_5000),5000,1317,117657,OK
-radixSort (Size_5000),5000,1295,7033,OK
-shellSort (Size_7500),7500,1968,32927,OK
-heapSort (Size_7500),7500,1858,27963,OK
-quickSort (Size_7500),7500,1877,15703,OK
-mergeSort (Size_7500),7500,1840,191485,OK
-radixSort (Size_7500),7500,2156,10794,OK
-shellSort (Size_10000),10000,2707,46917,OK
-heapSort (Size_10000),10000,5057,38579,OK
-quickSort (Size_10000),10000,2704,20177,OK
-mergeSort (Size_10000),10000,2461,266402,OK
-radixSort (Size_10000),10000,2633,14415,OK
-shellSort (Size_15000),15000,4039,70541,OK
-heapSort (Size_15000),15000,3931,56714,OK
-quickSort (Size_15000),15000,3887,31099,OK
-mergeSort (Size_15000),15000,3676,398340,OK
-radixSort (Size_15000),15000,4424,24324,OK
-shellSort (Size_20000),20000,5991,124270,OK
-heapSort (Size_20000),20000,5114,88817,OK
-quickSort (Size_20000),20000,5146,47643,OK
-mergeSort (Size_20000),20000,6299,536512,OK
-radixSort (Size_20000),20000,5155,29242,OK
-shellSort (Size_25000),25000,6623,153516,OK
-heapSort (Size_25000),25000,7353,110039,OK
-quickSort (Size_25000),25000,6497,61143,OK
-mergeSort (Size_25000),25000,6594,686430,OK
-radixSort (Size_25000),25000,9271,40103,OK
-shellSort (Size_30000),30000,9981,157896,OK
-heapSort (Size_30000),30000,8545,121850,OK
-quickSort (Size_30000),30000,7928,69694,OK
-mergeSort (Size_30000),30000,7711,899925,OK
-radixSort (Size_30000),30000,7740,50182,OK
-shellSort (Size_35000),35000,9349,205959,OK
-heapSort (Size_35000),35000,11421,152530,OK
-quickSort (Size_35000),35000,9045,94822,OK
-mergeSort (Size_35000),35000,9998,1003530,OK
-radixSort (Size_35000),35000,9456,53767,OK
-shellSort (Size_40000),40000,10840,357779,OK
-heapSort (Size_40000),40000,10438,182611,OK
-quickSort (Size_40000),40000,11768,104630,OK
-mergeSort (Size_40000),40000,14252,1147939,OK
-radixSort (Size_40000),40000,11036,66020,OK
-shellSort (Size_45000),45000,12644,260572,OK
-heapSort (Size_45000),45000,12031,204100,OK
-quickSort (Size_45000),45000,12037,106138,OK
-mergeSort (Size_45000),45000,12081,1324474,OK
-radixSort (Size_45000),45000,15984,68686,OK
-shellSort (Size_50000),50000,13901,305058,OK
-heapSort (Size_50000),50000,14843,228666,OK
-quickSort (Size_50000),50000,13599,117909,OK
-mergeSort (Size_50000),50000,14013,1488102,OK
-radixSort (Size_50000),50000,13214,78744,OK
+shellSort (Stability),40,14,36,OK
+heapSort (Stability),40,20,67,OK
+quickSort (Stability),40,19,78,OK
+mergeSort (Stability),40,13,481,OK
+radixSort (Stability),40,14,78,OK
+shellSort (AllSame),50,17,31,OK
+heapSort (AllSame),50,17,25,OK
+quickSort (AllSame),50,17,65,OK
+mergeSort (AllSame),50,17,7,OK
+radixSort (AllSame),50,16,90,OK
+shellSort (Size_100),100,333,134,OK
+heapSort (Size_100),100,32,207,OK
+quickSort (Size_100),100,40,197,OK
+mergeSort (Size_100),100,44,2347,OK
+radixSort (Size_100),100,35,204,OK
+shellSort (Size_500),500,249,1346,OK
+heapSort (Size_500),500,173,1419,OK
+quickSort (Size_500),500,345,1076,OK
+mergeSort (Size_500),500,166,9038,OK
+radixSort (Size_500),500,163,1003,OK
+shellSort (Size_1000),1000,324,2739,OK
+heapSort (Size_1000),1000,283,2603,OK
+quickSort (Size_1000),1000,398,2540,OK
+mergeSort (Size_1000),1000,419,28766,OK
+radixSort (Size_1000),1000,299,1476,OK
+shellSort (Size_2500),2500,1048,8813,OK
+heapSort (Size_2500),2500,712,8665,OK
+quickSort (Size_2500),2500,627,5384,OK
+mergeSort (Size_2500),2500,712,63726,OK
+radixSort (Size_2500),2500,710,3965,OK
+shellSort (Size_5000),5000,1669,21834,OK
+heapSort (Size_5000),5000,1265,17146,OK
+quickSort (Size_5000),5000,1262,14714,OK
+mergeSort (Size_5000),5000,1859,114160,OK
+radixSort (Size_5000),5000,1290,7494,OK
+shellSort (Size_7500),7500,1902,28759,OK
+heapSort (Size_7500),7500,2283,32802,OK
+quickSort (Size_7500),7500,2790,18952,OK
+mergeSort (Size_7500),7500,2560,207888,OK
+radixSort (Size_7500),7500,1983,14047,OK
+shellSort (Size_10000),10000,2932,47830,OK
+heapSort (Size_10000),10000,2689,41104,OK
+quickSort (Size_10000),10000,2992,27737,OK
+mergeSort (Size_10000),10000,2754
