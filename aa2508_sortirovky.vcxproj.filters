@@ -33,6 +33,9 @@
     <ClCompile Include="merge_sort.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="radixSort.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sorts.h">
@@ -54,6 +57,21 @@
     </Text>
     <Text Include="Heap_best.txt" />
     <Text Include="merge_test.txt" />
+    <Text Include="..\..\..\Downloads\currency.txt" />
+    <Text Include="Best_shellSort.txt" />
+    <Text Include="quick_test.txt" />
+    <Text Include="..\..\..\Downloads\random_words_10000.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="random_words_10000.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="quick_medium.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="quick_best.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="results.csv" />

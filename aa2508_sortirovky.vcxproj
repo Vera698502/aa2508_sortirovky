@@ -152,14 +152,27 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\Downloads\currency.txt" />
+    <Text Include="..\..\..\Downloads\random_words_10000.txt" />
+    <Text Include="all_same.txt" />
     <Text Include="average.txt" />
     <Text Include="best.txt" />
+    <Text Include="best_merge.txt" />
+    <Text Include="best_shell.txt" />
     <Text Include="Best_shellSort.txt" />
+    <Text Include="currency.txt" />
     <Text Include="duplicates.txt" />
+    <Text Include="empty.txt" />
+    <Text Include="heap_average.txt" />
     <Text Include="Heap_best.txt" />
     <Text Include="merge_test.txt" />
+    <Text Include="quick_best.txt" />
+    <Text Include="quick_medium.txt" />
     <Text Include="quick_test.txt" />
+    <Text Include="radix_worst.txt" />
+    <Text Include="random_words_10000.txt" />
+    <Text Include="stability_test.txt" />
     <Text Include="worst.txt" />
+    <Text Include="worst_heap.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
