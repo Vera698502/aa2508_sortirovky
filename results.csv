@@ -1,46 +1,33 @@
 Method,DatasetSize,PrepTime_mcs,SortTime_mcs,Status
-shellSort,2000,841,1191,OK
-heapSort,2000,554,5954,OK
-quickSort,2000,566,1902,OK
-mergeSort,2000,600,302,OK
-radixSort,2000,496,3685,OK
-shellSort,2000,494,3889,OK
-heapSort,2000,488,5270,OK
-quickSort,2000,549,2097,OK
-mergeSort,2000,526,42663,OK
-radixSort,2000,594,3473,OK
-shellSort,2002,561,5810,OK
-heapSort,2002,921,5795,OK
-quickSort,2002,638,4061,OK
-mergeSort,2002,498,41587,OK
-radixSort,2002,803,2995,OK
-shellSort,2000,702,3622,OK
-heapSort,2000,610,5416,OK
-quickSort,2000,1204,5405,OK
-mergeSort,2000,1036,43538,OK
-radixSort,2000,556,2801,OK
-shellSort (Anya),16,11,13,OK
-heapSort (Anya),16,8,21,OK
-quickSort (Anya),16,6,18,OK
-mergeSort (Anya),16,5,71,OK
-radixSort (Anya),16,6,34,OK
-shellSort (Altynai),39,11,25,OK
-heapSort (Altynai),39,12,35,OK
-quickSort (Altynai),39,11,39,OK
-mergeSort (Altynai),39,14,393,OK
-radixSort (Altynai),39,18,100,OK
-shellSort (Polina),2000,552,1003,OK
-heapSort (Polina),2000,535,6725,OK
-quickSort (Polina),2000,538,1795,OK
-mergeSort (Polina),2000,603,287,OK
-radixSort (Polina),2000,530,5175,OK
-shellSort (Katya),1120,406,2714,OK
-heapSort (Katya),1120,330,2298,OK
-quickSort (Katya),1120,311,1855,OK
-mergeSort (Katya),1120,355,23384,OK
-radixSort (Katya),1120,465,1751,OK
-shellSort (David),2000,594,2784,OK
-heapSort (David),2000,653,5813,OK
-quickSort (David),2000,617,3389,OK
-mergeSort (David),2000,554,41110,OK
-radixSort (David),2000,540,1634,OK
+shellSort,2000,946,1840,OK
+heapSort,2000,1077,8794,OK
+quickSort,2000,916,3049,OK
+mergeSort,2000,955,452,OK
+radixSort,2000,1248,6559,OK
+shellSort,2000,1285,7169,OK
+heapSort,2000,947,18212,OK
+quickSort,2000,1477,3846,OK
+mergeSort,2000,1593,88083,OK
+radixSort,2000,1047,5855,OK
+shellSort,2002,883,7347,OK
+heapSort,2002,840,8695,OK
+quickSort,2002,651,5754,OK
+mergeSort,2002,672,61783,OK
+radixSort,2002,782,3801,OK
+shellSort,2000,1034,6161,OK
+heapSort,2000,986,8241,OK
+quickSort,2000,983,6070,OK
+mergeSort,2000,994,58628,OK
+radixSort,2000,657,3951,OK
+shellSort,16,9,10,OK
+heapSort,16,6,18,OK
+quickSort,16,5,19,OK
+mergeSort,16,15,197,OK
+radixSort,16,12,65,OK
+shellSort,2000,650,1557,OK
+heapSort,2000,674,6921,OK
+quickSort,2000,1160,2944,OK
+mergeSort,2000,1091,407,OK
+radixSort,2000,1238,8692,OK
+shellSort,100000,44087,113035,OK
+heapSort,100000,31699,520556,OK
