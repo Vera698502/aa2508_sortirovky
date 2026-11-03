@@ -201,6 +201,52 @@ int main() {
         cout << "ERROR: File random_words_10000.txt not found or is empty!" << endl;
     }
 
+    cout << "\n\n";
+    cout << " QUICKSORT O(n^2) TESTS (quick_n2.txt) \n";
+    cout << "\n";
+
+    vector<string> quickN2Data = LoadData("quick_n2.txt");
+
+    if (!quickN2Data.empty()) {
+        vector<int> sizesQuick = { 100, 250, 500, 750, 1000, 1500, 2000 };
+
+        for (int size : sizesQuick) {
+            if (size > quickN2Data.size()) continue;
+
+            vector<string> currentData(quickN2Data.begin(), quickN2Data.begin() + size);
+
+            cout << "\n SIZE: " << size << " " << endl;
+
+            Run("quickSort (N2_Size_" + to_string(size) + ")", quickSort, currentData, out);
+        }
+    }
+    else {
+        cout << "ERROR: File quick_n2.txt not found or is empty!" << endl;
+    }
+
+    cout << "\n\n";
+    cout << " SHELLSORT TESTS (shell_n2.txt) \n";
+    cout << "\n";
+
+    vector<string> shellN2Data = LoadData("shell_n2.txt");
+
+    if (!shellN2Data.empty()) {
+        vector<int> sizesShell = { 100, 250, 500, 750, 1000, 1500, 2000 };
+
+        for (int size : sizesShell) {
+            if (size > shellN2Data.size()) continue;
+
+            vector<string> currentData(shellN2Data.begin(), shellN2Data.begin() + size);
+
+            cout << "\n SIZE: " << size << " " << endl;
+
+            Run("shellSort (N2_Size_" + to_string(size) + ")", shellSort, currentData, out);
+        }
+    }
+    else {
+        cout << "ERROR: File shell_n2.txt not found or is empty!" << endl;
+    }
+
     out.close();
     cout << "\nResults saved to file results.csv!" << endl;
 
